@@ -1,0 +1,106 @@
+:root {
+  --jd-green: #367c2c;
+  --jd-yellow: #fd0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 10vh
+}
+
+p {
+  font-size: small;
+}
+
+button:hover {
+  color: var(--jd-yellow);
+}
+
+.xs-font {
+  font-size: x-small
+}
+
+.jd-green {
+  color: var(--jd-green)
+}
+
+.jd-yellow {
+  color: var(--jd-yellow)
+}
+
+.dirt-image {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/November-2020-Hero-991x361.jpg);
+  height: 30vh;
+  background-size: cover;
+}
+
+.opacity {
+  background-color: rgba(73, 73, 73, 0.9);
+}
+
+.img-3 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/xuv590m_sept2020_632x384.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-4 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/buyonline3-nmb.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-5 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-cf1-oct2020.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-6 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-cf2npni-oct2020.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-7 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-feature-compact.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-8 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/Running-may.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-9 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-pr-oct2020.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-10 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-jdps-oct2020.jpg);
+  height: 35vh;
+  background-size: cover;
+}
+
+.img-11 {
+  background-image: url(https://www.deere.com/assets/images/common/home-page/homepage-pr2-sep2020.jpg);
+  height: 35vh;
+  background-size: cover;
+}
